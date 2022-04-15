@@ -1,5 +1,5 @@
 # Mapper-65
-Large scale GIS Mapping system project created using GTK and C++ at the University of Toronto
+Large scale GIS Mapping system project created using C++ and OpenStreetMap at the University of Toronto
 
 This Repository contains a demo of the Mapper Project that I created along with teammates Srinidhi Shankar and Prarthona Paul. 
 
