@@ -121,7 +121,7 @@ Three algorithms were used to achieve navigation on the map. Breadth First Searc
 
 Dijkstras algorithm was implmented using a min heap (priority queue). The following video demonstrates Dijkstras algorithm working on our map. The highlights are just a visualization tool to see the algorithm working (the actual finding is much quicker than that demonstrated through the highlights). Dijkstras algorithm uses wavefronts to explore all paths until it finds the best one to the destination. These wavefronts are circular and expand outwards from the source. 
 
-https://user-images.githubusercontent.com/73911621/163703600-8c5c13a9-b5fa-476b-a230-faf8c
+https://user-images.githubusercontent.com/73911621/163704211-7b30bdf2-ca4f-47fe-8df1-9ed3444c7a7b.mp4
 
 2. A Star Algorithm
 
