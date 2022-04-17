@@ -142,9 +142,11 @@ The final milestone of the project was related to coding an acceptable solution 
 
 In order to improve our result path, we iterated through multiple pickup points and implmented a simple multi start. Additionally, we implmented local perturbations through 2-opt, which improved our results by testing various different swaps between path links. 
 
-</p align = middle>
-![Nearestneighbor](https://user-images.githubusercontent.com/73911621/163704439-a6de8d14-78c5-4661-96b9-473e172b219f.gif)
-Demonstration of a greedy algorithm that takes the nearest neighbour
-</p>
+Demonstration of a greedy algorithm that takes the nearest neighbour:
+
+
+![Nearestneighbor (1)](https://user-images.githubusercontent.com/73911621/163704680-fdb10e2e-03ad-4dec-a226-38312f9d1fc2.gif)
+
+
 
 For more information on the Travelling Salesman Problem (src): https://en.wikipedia.org/wiki/Travelling_salesman_problem
