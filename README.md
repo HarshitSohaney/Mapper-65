@@ -4,7 +4,24 @@ Large scale GIS Mapping system project created using C++ and OpenStreetMap at th
 This Repository contains a demo of the Mapper Project that I created along with teammates Srinidhi Shankar and Prarthona Paul. 
 
 # Contents
-
+- [Software Development Information](#software-development-information)
+  * [Languages and Tools](#languages-and-tools)
+  * [Programming Paradigm - OOP](#programming-paradigm---oop)
+  * [Milestones](#milestones)
+  * [OpenStreetMap](#openstreetmap)
+- [Mapper-65 Demonstration](#mapper-65-demonstration)
+  * [The Go Green Initiative](#the-go-green-initiative)
+  * [Constant Complexity Data Access](#constant-complexity-data-access)
+  * [GUI Features](#gui-features)
+    + [Transit](#transit)
+    + [Multiple Maps](#multiple-maps)
+    + [Points Of Interest Selection](#points-of-interest-selection)
+    + [Search Bar Integration](#search-bar-integration)
+    + [Dark Mode](#dark-mode)
+    + [Navigation Mode](#navigation-mode)
+    + [Help Page](#help-page)
+  * [Path Finding](#path-finding)
+  * [The Travelling Salesman Problem](#the-travelling-salesman-problem)
 
 
 # Software Development Information
@@ -14,7 +31,7 @@ This Repository contains a demo of the Mapper Project that I created along with 
 1. C++ 
 2. GTK (GUI development)
 
-## Programming paradigm - OOP
+## Programming Paradigm - OOP
 
 1. Extensively used Structs to create various objects for elements like features, points of interests and path tracing data.
 2. Created seperate header files to split milestone global variables.
@@ -59,14 +76,21 @@ Maps are loaded in a function through OSM XML map files converted into binary fi
 <p align = middle>
 <img width="109" alt="PathChoice" src="https://user-images.githubusercontent.com/73911621/163701893-f64adae2-67ce-466d-b3d3-eb3fa73aab14.PNG">
   </p>
-### POI Selection
-### Search bar integration
+  
+### Points Of Interest Selection
+
+When searching for POIs, users can select what POIs they want to see from a drop down menu. All categorized POIs in the users search area will appear and as the user zooms out, those are the ones that remain. This was a design decision made to keep POI querying fast and intuitive.  If POIs are not present in the user's screen, the nearest POIs are displayed as the user looks around.
+
+https://user-images.githubusercontent.com/73911621/163702592-af32cfc7-ea72-4b22-93cb-fb4bdf550c64.mp4
+
+### Search Bar Integration
 
 The search bar was created using the GTK search bar widget. It supports partial street name inputs, and gives suggestions and autocompletes. Users can query partial street names and press enter, the search will consider all possible streets and find common intersections. 
 
 <p align = middle>
 <img width="853" alt="Toronto_searchBar" src="https://user-images.githubusercontent.com/73911621/163701688-359bb986-0a16-4f3b-81de-f3be795a13fc.PNG">
   </p>
+  
 ### Dark Mode
 
 A dark mode feature allows eye comfort based on brightness.
