@@ -104,8 +104,7 @@ The search bar was created using the GTK search bar widget. It supports partial 
 
 A dark mode feature allows eye comfort based on brightness.
 
-<img width="500" alt="Singapore_Light" src="https://user-images.githubusercontent.com/73911621/163702029-c307f46a-fb47-4753-80c6-464f2464bdfa.PNG">]
-<img width="500" alt="Singapore_darkMode" src="https://user-images.githubusercontent.com/73911621/163702033-2e9958e7-5b77-48fb-a56a-98b1a3cfec48.PNG">
+<img width="499" alt="Singapore_Light" src="https://user-images.githubusercontent.com/73911621/163702029-c307f46a-fb47-4753-80c6-464f2464bdfa.PNG"><img width="500" alt="Singapore_darkMode" src="https://user-images.githubusercontent.com/73911621/163702033-2e9958e7-5b77-48fb-a56a-98b1a3cfec48.PNG">
 
 
 ### Navigation Mode
