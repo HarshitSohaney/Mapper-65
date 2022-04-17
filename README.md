@@ -1,7 +1,7 @@
 # Mapper-65
-Large scale GIS Mapping system project created using C++ and OpenStreetMap at the University of Toronto
+Large scale GIS Mapping system project created using C++ and OpenStreetMap at the University of Toronto.
 
-This Repository contains a demo of the Mapper Project that I created along with teammates Srinidhi Shankar and Prarthona Paul. 
+The source code for the project cannot be made public due to Academic Offense policies at the University of Toronto. This Repository only contains a demo of the Mapper Project that I created along with teammates Srinidhi Shankar and Prarthona Paul. 
 
 # Contents
 - [Software Development Information](#software-development-information)
@@ -77,11 +77,14 @@ Users can choose to see transit options in a city by clicking on the transit but
 
 ### Multiple Maps
 
-Maps are loaded in a function through OSM XML map files converted into binary files. Users can change maps and explore different cities around the world.
-
-<p align = middle>
-<img width="109" alt="PathChoice" src="https://user-images.githubusercontent.com/73911621/163701893-f64adae2-67ce-466d-b3d3-eb3fa73aab14.PNG">
-  </p>
+Maps are loaded in a function through OSM XML map files converted into binary files. Users can change maps and explore different cities around the world. Some maps included are:
+1. Toronto
+2. New York
+3. Sydney
+4. Singapore
+5. New Delhi
+6. Hong Kong
+7. Tokyo
   
 ### Points Of Interest Selection
 
@@ -113,13 +116,17 @@ https://user-images.githubusercontent.com/73911621/163701733-c4f86cd1-4c6e-461b-
 
 ### Help Page
 
+A help page was created using HTML/CSS to give users instructions on how to use the map.
+
+[Git Repo] (https://github.com/PrarthonaPaul/Mapper_Instructions)
+
 ## Path Finding
 
 Three algorithms were used to achieve navigation on the map. Breadth First Search was implmented as an initial solution and then iterated upon.
 
-1. Dijkstras Algorithm
+1. Dijkstra's Algorithm
 
-Dijkstras algorithm was implmented using a min heap (priority queue). The following video demonstrates Dijkstras algorithm working on our map. The highlights are just a visualization tool to see the algorithm working (the actual finding is much quicker than that demonstrated through the highlights). Dijkstras algorithm uses wavefronts to explore all paths until it finds the best one to the destination. These wavefronts are circular and expand outwards from the source. 
+Dijkstra's algorithm was implmented using a min heap (priority queue). The following video demonstrates Dijkstras algorithm working on our map. The highlights are just a visualization tool to see the algorithm working (the actual finding is much quicker than that demonstrated through the highlights). Dijkstras algorithm uses wavefronts to explore all paths until it finds the best one to the destination. These wavefronts are circular and expand outwards from the source. 
 
 https://user-images.githubusercontent.com/73911621/163704211-7b30bdf2-ca4f-47fe-8df1-9ed3444c7a7b.mp4
 
@@ -135,4 +142,9 @@ The final milestone of the project was related to coding an acceptable solution 
 
 In order to improve our result path, we iterated through multiple pickup points and implmented a simple multi start. Additionally, we implmented local perturbations through 2-opt, which improved our results by testing various different swaps between path links. 
 
-For more information on the Travelling Salesman Problem: https://en.wikipedia.org/wiki/Travelling_salesman_problem
+</p align = middle>
+![Nearestneighbor](https://user-images.githubusercontent.com/73911621/163704439-a6de8d14-78c5-4661-96b9-473e172b219f.gif)
+Demonstration of a greedy algorithm that takes the nearest neighbour
+</p>
+
+For more information on the Travelling Salesman Problem (src): https://en.wikipedia.org/wiki/Travelling_salesman_problem
