@@ -40,7 +40,9 @@ Reference: https://wiki.openstreetmap.org/wiki/Main_Page
 
 ## The Go Green Initiative
 
-## Constant complexity data access
+## Constant Complexity Data Access
+
+Various data loading functions were created to load important OSM information into data structures. Functions were evaluated based on O complexity analysis
 
 ## GUI Features
 
@@ -51,13 +53,28 @@ Users can choose to see transit options in a city by clicking on the transit but
 <img width="958" alt="NewYork_transit" src="https://user-images.githubusercontent.com/73911621/163701642-eda9d4e2-3826-4962-9635-b180f002d78d.PNG">
 
 ### Multiple Maps
+
+Maps are loaded in a function through OSM XML map files converted into binary files. Users can change maps and explore different cities around the world.
+
+<p align = middle>
+<img width="109" alt="PathChoice" src="https://user-images.githubusercontent.com/73911621/163701893-f64adae2-67ce-466d-b3d3-eb3fa73aab14.PNG">
+  </p>
 ### POI Selection
 ### Search bar integration
 
 The search bar was created using the GTK search bar widget. It supports partial street name inputs, and gives suggestions and autocompletes. Users can query partial street names and press enter, the search will consider all possible streets and find common intersections. 
-<img width="853" alt="Toronto_searchBar" src="https://user-images.githubusercontent.com/73911621/163701688-359bb986-0a16-4f3b-81de-f3be795a13fc.PNG">
 
+<p align = middle>
+<img width="853" alt="Toronto_searchBar" src="https://user-images.githubusercontent.com/73911621/163701688-359bb986-0a16-4f3b-81de-f3be795a13fc.PNG">
+  </p>
 ### Dark Mode
+
+A dark mode feature allows eye comfort based on brightness.
+
+<img width="500" alt="Singapore_Light" src="https://user-images.githubusercontent.com/73911621/163702029-c307f46a-fb47-4753-80c6-464f2464bdfa.PNG">]
+<img width="500" alt="Singapore_darkMode" src="https://user-images.githubusercontent.com/73911621/163702033-2e9958e7-5b77-48fb-a56a-98b1a3cfec48.PNG">
+
+
 ### Navigation Mode
 
 The map turns green when in navigation mode. A navigation bar provides important information about the selected from and to, and has an additional feature to swap the two immediately. Detailed directions are presented in a text box on the right, and the path is highlighted as the user goes through the directions.
