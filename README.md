@@ -57,6 +57,12 @@ Reference: https://wiki.openstreetmap.org/wiki/Main_Page
 
 ## The Go Green Initiative
 
+The map was created with climate impact in mind. The team hopes to expand route finding to subways and buses in order to promote greener travelling. Transit paths will be given precedence and greener roadways will be highlighted when presenting paths to users. A carbon footprint approximate will be calculated and displayed to the user. 
+Additionally, the map includes various Points Of Interests which promote greener methods of travel:
+1. Bicycle Rentals
+2. Electric Vehicle Charging
+3. Recycling Bins
+
 ## Constant Complexity Data Access
 
 Various data loading functions were created to load important OSM information into data structures. Functions were evaluated based on O complexity analysis
@@ -109,9 +115,24 @@ https://user-images.githubusercontent.com/73911621/163701733-c4f86cd1-4c6e-461b-
 
 ## Path Finding
 
+Three algorithms were used to achieve navigation on the map. Breadth First Search was implmented as an initial solution and then iterated upon.
+
+1. Dijkstras Algorithm
+
+Dijkstras algorithm was implmented using a min heap (priority queue). The following video demonstrates Dijkstras algorithm working on our map. The highlights are just a visualization tool to see the algorithm working (the actual finding is much quicker than that demonstrated through the highlights). Dijkstras algorithm uses wavefronts to explore all paths until it finds the best one to the destination. These wavefronts are circular and expand outwards from the source. 
+
+https://user-images.githubusercontent.com/73911621/163703600-8c5c13a9-b5fa-476b-a230-faf8c
+
+2. A Star Algorithm
+
+A Star algorithm was implemented by making slight adjustments to Dijkstras by including a new dimension of estimation - time remaining. The algorithm was significantly faster for single source single destination searches. The visualization shows how the algorithm moves in a more focussed direction rather than a circular wavefront. 
+
+https://user-images.githubusercontent.com/73911621/163703965-d7ab6e1a-76c8-476a-876a-072dba7df698.mp4
+
 ## The Travelling Salesman Problem
 
+The final milestone of the project was related to coding an acceptable solution to the Travelling Salesman Problem using various heuristics. For background, the Travelling Salesman Problem is a NP complete problem relating to finding the shortest path for given pick ups and deliveries. Dijkstra's algorithm was expanded to find paths to multiple destinations from a source, all at once. Multi Destination Dijkstras, coupled with a greedy algorithm gave an initial solution. 
 
+In order to improve our result path, we iterated through multiple pickup points and implmented a simple multi start. Additionally, we implmented local perturbations through 2-opt, which improved our results by testing various different swaps between path links. 
 
-
-
+For more information on the Travelling Salesman Problem: https://en.wikipedia.org/wiki/Travelling_salesman_problem
