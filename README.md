@@ -46,12 +46,24 @@ Reference: https://wiki.openstreetmap.org/wiki/Main_Page
 
 ### Transit
 
+Users can choose to see transit options in a city by clicking on the transit button. The paths were laid out using the OSM database keys for subways and buses, giving accurate paths. 
+
+<img width="958" alt="NewYork_transit" src="https://user-images.githubusercontent.com/73911621/163701642-eda9d4e2-3826-4962-9635-b180f002d78d.PNG">
+
 ### Multiple Maps
 ### POI Selection
 ### Search bar integration
 
+The search bar was created using the GTK search bar widget. It supports partial street name inputs, and gives suggestions and autocompletes. Users can query partial street names and press enter, the search will consider all possible streets and find common intersections. 
+<img width="853" alt="Toronto_searchBar" src="https://user-images.githubusercontent.com/73911621/163701688-359bb986-0a16-4f3b-81de-f3be795a13fc.PNG">
+
 ### Dark Mode
 ### Navigation Mode
+
+The map turns green when in navigation mode. A navigation bar provides important information about the selected from and to, and has an additional feature to swap the two immediately. Detailed directions are presented in a text box on the right, and the path is highlighted as the user goes through the directions.
+
+https://user-images.githubusercontent.com/73911621/163701733-c4f86cd1-4c6e-461b-b7c6-54a4707a7218.mp4
+
 ### Help Page
 
 ## Path Finding
