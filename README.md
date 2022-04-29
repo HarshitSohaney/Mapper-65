@@ -7,6 +7,7 @@ The source code for the project cannot be made public due to Academic Offense po
 - [Software Development Information](#software-development-information)
   * [Languages and Tools](#languages-and-tools)
   * [Programming Paradigm - OOP](#programming-paradigm---oop)
+  * [Data Structures](#data-structures)
   * [Milestones](#milestones)
   * [OpenStreetMap](#openstreetmap)
 - [Mapper-65 Demonstration](#mapper-65-demonstration)
@@ -36,6 +37,17 @@ The source code for the project cannot be made public due to Academic Offense po
 1. Extensively used Structs to create various objects for elements like features, points of interest and path tracing data.
 2. Created separate header files to split milestone global variables.
 3. Abstraction was implemented with functions that were used for streets, features, and pathfinding.
+
+## Data Structures
+
+STL structures used:
+ 1. Vector
+ 2. List
+ 3. Unordered Map
+ 4. Priority Queue
+ 5. Multi Map
+ 
+ Dynamically allocated arrays were used for optimization purposes.
 
 ## Milestones
 
