@@ -47,6 +47,11 @@ The project was split into four milestones:
 
 The team kept track of various tasks during these milestones through a wiki page and a Trello workflow.
 
+My contribution to the project: (Number of files changed seems to represent how many times I changed a certain file too)
+
+![image](https://user-images.githubusercontent.com/73911621/165882772-a706311b-1caa-4f39-9aab-7ec70ba78278.png)
+
+
 ## OpenStreetMap
 
 The project used the OpenStreetMap database to parse geographic data. The course team converted XML files to binary files for efficient data accessing. Data were processed using various keywords and structures based on OSM standards.
