@@ -47,7 +47,7 @@ The project was split into four milestones:
 
 The team kept track of various tasks during these milestones through a wiki page and a Trello workflow.
 
-My contribution to the project over the semester:
+My contribution to the project over the semester (14 weeks):
 
 ![image](https://user-images.githubusercontent.com/73911621/165882772-a706311b-1caa-4f39-9aab-7ec70ba78278.png)
 
