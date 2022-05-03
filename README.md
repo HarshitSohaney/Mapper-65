@@ -156,11 +156,7 @@ https://user-images.githubusercontent.com/73911621/163703965-d7ab6e1a-76c8-476a-
 
 The final milestone of the project was related to coding an acceptable solution to the Travelling Salesman Problem using various heuristics. For background, the Travelling Salesman Problem is an NP-complete problem relating to finding the shortest path for given pick-ups and deliveries. Dijkstra's algorithm was expanded to find paths to multiple destinations from a source, all at once. Multi-Destination Dijkstra's, coupled with a greedy algorithm gave an initial solution. 
 
-In order to improve our result path, we iterated through multiple pickup points and implemented a simple multi-start. Additionally, we implemented local perturbations through 2-opt, which improved our results by testing various different swaps between path links. 
-
-Demonstration of a greedy algorithm that takes the nearest neighbor:
-
-![Nearestneighbor (1)](https://user-images.githubusercontent.com/73911621/163704680-fdb10e2e-03ad-4dec-a226-38312f9d1fc2.gif)
+In order to improve our result path, we iterated through multiple pickup points and implemented a simple multi-start. Additionally, we implemented local perturbations through 2-opt, which improved our results by testing various different swaps between path links. This perturbation operation was used in our Simulated Annealing algorithm. 
 
 Simulated Annealing Result from our TSP solution implementation:
 <p align = middle>
@@ -169,5 +165,9 @@ Simulated Annealing Result from our TSP solution implementation:
   
 
 The graph represents how our TSP solution utilized simualted annealing for two different start points. The y axis is the total path time and the x axis is a new iteration for a path.
+  
+Demonstration of a greedy algorithm that takes the nearest neighbor:
+
+![Nearestneighbor (1)](https://user-images.githubusercontent.com/73911621/163704680-fdb10e2e-03ad-4dec-a226-38312f9d1fc2.gif)
 
 For more information on the Travelling Salesman Problem (src): https://en.wikipedia.org/wiki/Travelling_salesman_problem
