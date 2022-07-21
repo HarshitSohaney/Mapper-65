@@ -66,7 +66,7 @@ My contribution to the project over the semester (14 weeks):
 
 ## OpenStreetMap
 
-The project used the OpenStreetMap database to parse geographic data. The course team converted XML files to binary files for efficient data accessing. Data were processed using various keywords and structures based on OSM standards.
+The project used the OpenStreetMap database to parse geographic data. The course team converted XML files to binary files for efficient data accessing. Data was processed using various keywords and structures based on OSM standards.
 
 Reference: https://wiki.openstreetmap.org/wiki/Main_Page
 
