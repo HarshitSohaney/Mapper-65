@@ -164,7 +164,7 @@ Simulated Annealing Result from our TSP solution implementation:
   </p>
   
 
-The graph represents how our TSP solution utilized simualted annealing for two different start points. The y axis is the total path time and the x axis is a new iteration for a path.
+The graph represents how our TSP solution utilized simulated annealing for two different start points. The y axis is the total path time and the x axis is a new iteration for a path.
   
 Demonstration of a greedy algorithm that takes the nearest neighbor:
 
